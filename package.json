@@ -1,0 +1,60 @@
+{
+  "name": "building-app-with-react-and-flux",
+  "version": "1.0.0",
+  "description": "this is a very simple app building which should ideally help me getting started with React and uni-directional data-flow pattern aka Flux",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kroshner/building-app-with-react-and-flux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kroshner/building-app-with-react-and-flux/issues"
+  },
+  "homepage": "https://github.com/kroshner/building-app-with-react-and-flux#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "browserify": "^13.1.1",
+    "flux": "^3.1.0",
+    "grunt-concat": "^0.1.6",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-eslint": "^3.0.1",
+    "gulp-open": "^2.0.0",
+    "jquery": "^3.1.1",
+    "react": "^15.4.0",
+    "react-router": "^3.0.0",
+    "reactify": "^1.1.1",
+    "underscore": "^1.8.3",
+    "vinyl-source-stream": "^1.1.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "rules": {
+      "quotes": 1,
+      "no-trailing-spaces": 1,
+      "eol-last": 1,
+      "no-unused-vars": 1,
+      "no-underscore-dangle": 1,
+      "no-alert": 1,
+      "no-lone-blocks": 1
+    },
+    "globals": {
+      "jQuery": true,
+      "$": true
+    }
+  }
+}
