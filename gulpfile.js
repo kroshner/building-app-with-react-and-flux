@@ -52,9 +52,14 @@ gulp.task("css", function() {
         .pipe(gulp.dest(config.paths.dist + "/css"));
 });
 
+gulp.task("images", function() {
+    gulp.src(config.paths.images)
+        .pipe(gulp.dest(config.paths.dist + "/images"));
+});
+
 gulp.task("watch", function() {
     gulp.watch([config.paths.html], ["html"]);
     gulp.watch([config.paths.js], ["js"]);
 });
 
-gulp.task("default", ["html", "js", "css", "open", "watch"]);
+gulp.task("default", ["html", "js", "css", "images", "open", "watch"]);
