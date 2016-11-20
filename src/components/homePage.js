@@ -1,8 +1,6 @@
-"use strict";
-
 var React = require("react");
 
-var Home = React.createClass({
+var HomePage = React.createClass({
     render: function() {
         return (
             <div className="jumbotron">
@@ -13,4 +11,4 @@ var Home = React.createClass({
     }
 })
 
-module.exports = Home;
+module.exports = HomePage;
